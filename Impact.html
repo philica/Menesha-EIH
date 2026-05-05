@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Swiper js -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Fancybox css -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <!-- Animation css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Boxicon css -->
+    <link rel="stylesheet" href="assets/css/boxicons.min.css">
+    <!-- My css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>መነሻ | Impact</title>
+    <link rel="icon" href="assets/image/icon/fav-icon.svg" type="image/gif" sizes="20x20">
+</head>
+
+<body class="tt-magic-cursor">
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+    <!-- Back To Top -->
+    <div id="scroll-percentage">
+        <span id="scroll-percentage-value">0%</span>
+
+        <svg class="arrow" width="22" height="25" viewBox="0 0 24 23" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true">
+            <path
+                d="M0.556131 11.4439L11.8139 0.186067L13.9214 2.29352L13.9422 20.6852L9.70638 20.7061L9.76793 8.22168L3.6064 14.4941L0.556131 11.4439Z" />
+            <path d="M23.1276 11.4999L16.0288 4.40105L15.9991 10.4203L20.1031 14.5243L23.1276 11.4999Z" />
+        </svg>
+    </div>
+
+    <!-- <div class="tt-style-switch index-dark">
+        <i class="bi bi-brightness-low-fill"></i>
+    </div> -->
+
+    <!-- Sidebar Menu -->
+    <div class="right-sidebar-menu">
+        <div class="right-sidebar-menu-wrap">
+            <div class="right-sidebar-close-btn">
+                <i class="bi bi-x"></i>
+            </div>
+            <div class="sidebar-content-wrap">
+                <div class="sidebar-logo-wrap">
+                    <a href="#"><img class="logo-dark" alt="image" src="assets/image/icon/meneshalogo.png"></a>
+                    <a href="#"><img class="logo-light" alt="image" src="assets/image/icon/meneshalogo.png"></a>
+                </div>
+                <div class="title-area">
+                    <p>JumpStart Ethiopia is the engine for structural economic transformation. We bridge the gap between 41+ public assets and the startup ecosystem — turning State-Owned Enterprises into Venture Clients and Ethiopian founders into commercially validated innovators.
+                    </p>
+                </div>
+                <div class="contact-and-social-area">
+                    <div class="contact-area-wrap">
+                        <div class="arrow">
+                            <svg width="6" height="355" viewBox="0 0 6 355" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3.38672 5L5.77347 0H-3.26633e-05L2.38672 5H3.38672ZM2.88672 355L5.77347 350H-3.26633e-05L2.88672 355ZM2.88672 4.5H2.38672V151H2.88672H3.38672V4.5H2.88672ZM2.88672 151H2.38672V350.5H2.88672H3.38672V151H2.88672Z" />
+                            </svg>
+                        </div>
+                        <ul class="contact-area">
+                            <li>
+                                <h6>Chat With Us</h6>
+                                <div class="single-contact">
+                                    <div class="icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M21.7969 3.32227H2.20312C1.61902 3.32292 1.05903 3.55525 0.646007 3.96827C0.232983 4.3813 0.000657558 4.94129 0 5.52539L0 18.4742C0.000657558 19.0583 0.232983 19.6183 0.646007 20.0314C1.05903 20.4444 1.61902 20.6767 2.20312 20.6774H21.7969C22.381 20.6767 22.941 20.4444 23.354 20.0314C23.767 19.6183 23.9993 19.0583 24 18.4742V5.52539C23.9993 4.94129 23.767 4.3813 23.354 3.96827C22.941 3.55525 22.381 3.32292 21.7969 3.32227ZM15.8424 11.9998L22.7733 5.06892C22.8404 5.21173 22.8751 5.3676 22.875 5.52539V18.4742C22.8751 18.632 22.8404 18.7879 22.7733 18.9307L15.8424 11.9998ZM21.7969 4.44727H21.8038L12 14.2512L2.19623 4.44745H2.20312L21.7969 4.44727ZM1.22672 18.9307C1.15962 18.7879 1.12489 18.632 1.125 18.4742V5.52539C1.12488 5.3676 1.15961 5.21173 1.22672 5.06892L8.15761 11.9998L1.22672 18.9307ZM2.20312 19.5524C2.20083 19.5524 2.19844 19.5524 2.19619 19.5524L8.95312 12.7953L11.6023 15.4445C11.7078 15.5499 11.8509 15.6092 12 15.6092C12.1492 15.6092 12.2923 15.5499 12.3978 15.4445L15.0469 12.7953L21.8038 19.5522C21.8015 19.5522 21.7991 19.5522 21.7969 19.5522L2.20312 19.5524Z" />
+                                        </svg>
+                                    </div>
+                                    <div class="content">
+                                        <span>Send Us Mail</span>
+                                        <h6><a href="#"><span class="__cf_email__" data-cfemail="">Contact@menesha.com</span></a></h6>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <h6>Call Us</h6>
+                                <div class="single-contact">
+                                    <div class="icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.5393 8.35927C9.68128 8.21729 9.82326 8.07058 9.96997 7.92386C10.4764 7.41747 10.7461 6.83062 10.7461 6.23431C10.7461 5.638 10.4764 5.05588 9.96997 4.54475L8.57857 3.15335C8.41766 2.99244 8.26148 2.83153 8.10531 2.67062C7.79295 2.35354 7.47586 2.02698 7.15878 1.72883C6.68078 1.25083 6.11286 1 5.51655 1C4.92023 1 4.34758 1.25083 3.85066 1.72883L2.09484 3.47991C1.46067 4.11408 1.10099 4.89024 1.02053 5.78471C0.930613 6.90161 1.13412 8.09424 1.66891 9.52823C2.48765 11.7478 3.72287 13.8065 5.55441 16.012C7.77875 18.6717 10.4574 20.7683 13.5147 22.2449C14.679 22.7986 16.236 23.447 17.9681 23.5605C18.077 23.5653 18.1811 23.57 18.2852 23.57C19.4495 23.57 20.3865 23.1677 21.1485 22.3395C21.1532 22.3348 21.1627 22.3253 21.1674 22.3158C21.4372 21.9893 21.7448 21.6959 22.0666 21.3835C22.2843 21.1705 22.5115 20.9528 22.7245 20.7257C23.723 19.6845 23.723 18.3641 22.715 17.356L19.9085 14.5496C19.4305 14.0526 18.8579 13.7876 18.2568 13.7876C17.6558 13.7876 17.0831 14.0479 16.5909 14.5401L14.9251 16.2155C14.7736 16.1255 14.6174 16.0498 14.466 15.9741C14.2814 15.8794 14.1063 15.7943 13.9501 15.6949C12.4262 14.7294 11.0443 13.4658 9.72387 11.8425C9.05657 11.0001 8.6117 10.2902 8.29935 9.56609C8.73475 9.17328 9.14649 8.75681 9.5393 8.35927ZM7.42381 8.79467C7.41434 8.80414 7.40961 8.80887 7.40014 8.81834C7.01207 9.20641 7.06886 9.58029 7.16351 9.86425C7.16824 9.87845 7.17298 9.88791 7.17771 9.90211C7.53739 10.7682 8.03905 11.5869 8.8152 12.5713C10.2208 14.2987 11.6927 15.6428 13.3207 16.6745C13.5242 16.8023 13.7372 16.9112 13.9407 17.0105C14.1252 17.1052 14.3003 17.1904 14.4565 17.2898C14.4755 17.2992 14.4896 17.3087 14.5086 17.3182C14.6648 17.3986 14.8115 17.4365 14.9629 17.4365C15.3415 17.4365 15.5829 17.1951 15.6633 17.1147L17.4097 15.3683C17.6795 15.0986 17.9729 14.9566 18.2568 14.9566C18.6118 14.9566 18.8957 15.1743 19.0803 15.3683L21.8962 18.1842C22.4547 18.7427 22.45 19.3437 21.882 19.9353C21.6833 20.1436 21.4798 20.3423 21.2573 20.5553C20.9308 20.8724 20.59 21.1989 20.2824 21.5681C19.7476 22.1455 19.1087 22.4152 18.2805 22.4152C18.2 22.4152 18.1149 22.4105 18.0344 22.4058C16.501 22.3064 15.0765 21.7101 14.0117 21.1989C11.1058 19.7933 8.55964 17.7962 6.43941 15.2689C4.6978 13.1724 3.5241 11.2178 2.75268 9.12596C2.27942 7.85287 2.09484 6.82116 2.17057 5.88409C2.22263 5.26412 2.46399 4.74353 2.90886 4.30339L4.64574 2.56651C4.9155 2.30621 5.21366 2.16896 5.50235 2.16896C5.78631 2.16896 6.07027 2.30148 6.34003 2.57124C6.65238 2.86466 6.95054 3.16755 7.2629 3.48937C7.42381 3.65028 7.58472 3.81593 7.74563 3.98157L9.13702 5.37297C9.42572 5.66166 9.57243 5.95508 9.57243 6.23904C9.57243 6.523 9.42572 6.81642 9.13702 7.10512C8.99031 7.25183 8.84833 7.39854 8.70162 7.54525C8.28042 7.98066 7.87341 8.39713 7.42381 8.79467Z" />
+                                            <path
+                                                d="M14.297 10.2723C14.3843 10.3596 14.4971 10.4032 14.6135 10.4032C14.7299 10.4032 14.8427 10.3596 14.93 10.2723L20.7944 4.40419V7.87482C20.7944 8.12221 20.9945 8.32229 21.2419 8.32229C21.4893 8.32229 21.6894 8.12221 21.6894 7.87482V3.32735C21.6894 3.07997 21.4893 2.87988 21.2419 2.87988H16.6944C16.447 2.87988 16.2469 3.07997 16.2469 3.32735C16.2469 3.57474 16.447 3.77482 16.6944 3.77482H20.165L14.297 9.64288C14.1224 9.8175 14.1224 10.1013 14.297 10.2723Z" />
+                                        </svg>
+                                    </div>
+                                    <div class="content">
+                                        <span>Call </span>
+                                        <h6><a href="tel:29658718617">+251-911-223-344</a></h6>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <h6>Visit Office</h6>
+                                <div class="single-contact">
+                                    <div class="icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path
+                                                    d="M12.0042 22.3975C11.832 22.3975 11.6717 22.31 11.5786 22.1652L5.26323 12.3531C4.10435 10.5525 3.71588 8.40839 4.16965 6.31574C4.6233 4.22303 5.86484 2.43231 7.66545 1.27338C11.3825 -1.119 16.3528 -0.0413463 18.7453 3.67565C20.4388 6.30674 20.439 9.71264 18.7458 12.3525C18.7456 12.3527 18.7455 12.3529 18.7453 12.3531L12.4299 22.1652C12.3368 22.31 12.1764 22.3975 12.0042 22.3975ZM11.9931 1.01218C10.6953 1.01218 9.3834 1.37164 8.2133 2.12476C6.64008 3.13727 5.55538 4.70187 5.15898 6.53026C4.76258 8.35865 5.10194 10.232 6.11451 11.8052L12.0042 20.9559L17.8935 11.8059C19.3735 9.4987 19.3736 6.52243 17.8939 4.22361C16.5568 2.14609 14.2975 1.01218 11.9931 1.01218Z" />
+                                                <path
+                                                    d="M12.003 24.0002C8.37708 24.0002 4.47461 23.1869 4.47461 21.4013C4.47461 19.8335 7.50602 19.0609 10.3431 18.8605C10.5275 18.8481 10.7043 18.936 10.8044 19.0915L12.0044 20.9559L13.2042 19.0917C13.3043 18.9361 13.4811 18.8481 13.6657 18.8607C16.5014 19.0612 19.5315 19.8339 19.5315 21.4013C19.5314 23.1869 15.6289 24.0002 12.003 24.0002ZM10.1166 19.8935C7.03384 20.1554 5.48702 20.9898 5.48702 21.4013C5.48702 21.5374 5.79156 21.9815 7.18211 22.3959C8.46286 22.7776 10.1749 22.9877 12.003 22.9877C13.831 22.9877 15.5431 22.7776 16.8238 22.3959C18.2144 21.9815 18.5189 21.5375 18.5189 21.4013C18.5189 20.99 16.9727 20.1559 13.8919 19.8938L12.43 22.1652C12.3368 22.31 12.1765 22.3975 12.0043 22.3975C11.8321 22.3975 11.6718 22.31 11.5787 22.1652L10.1166 19.8935Z" />
+                                                <path
+                                                    d="M12.003 10.9966C10.2359 10.9966 8.79834 9.55898 8.79834 7.79192C8.79834 6.02486 10.236 4.58716 12.003 4.58716C13.7701 4.58716 15.2078 6.02481 15.2078 7.79192C15.2078 9.55903 13.7701 10.9966 12.003 10.9966ZM12.003 5.59957C10.7942 5.59957 9.81075 6.58308 9.81075 7.79192C9.81075 9.00076 10.7942 9.98422 12.003 9.98422C13.2119 9.98422 14.1953 9.00076 14.1953 7.79192C14.1953 6.58308 13.2118 5.59957 12.003 5.59957Z" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="content">
+                                        <h6><a href="#">CapStone Building, 4th Floor; across the street from Balcha Hospital main entrance</a></h6>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="social-area-wrap">
+                        <div class="arrow">
+                            <svg width="6" height="66" viewBox="0 0 6 66" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3.38672 5L5.77347 0H-3.26633e-05L2.38672 5H3.38672ZM2.88672 66L5.77347 61H-3.26633e-05L2.88672 66ZM2.88672 4.5H2.38672V28.0732H2.88672H3.38672V4.5H2.88672ZM2.88672 28.0732H2.38672V61.5H2.88672H3.38672V28.0732H2.88672Z" />
+                            </svg>
+                        </div>
+                        <div class="social-area">
+                            <h6>Follow Us</h6>
+                            <ul class="social-list">
+                                <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
+                                <li><a href="https://x.com/"><i class="bi bi-twitter-x"></i></a></li>
+                                <li><a href="https://www.linkedin.com/"><i class='bx bxl-linkedin'></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt'></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- header Section Start-->
+    <header class="header-area home3-header">
+        <div class="header-area-wrap">
+            <div class="container-fluid one d-flex flex-nowrap align-items-center justify-content-between">
+                <div class="left-area">
+                    <div class="company-logo">
+                        <a href="index.html" class="logo-dark"><img alt="image"
+                                src="assets/image/icon/meneshalogo.png"></a>
+                        <a href="index.html" class="logo-light"><img alt="image"
+                                src="assets/image/icon/MeneshaLogoDark.png"></a>
+                    </div>
+                    <div class="main-menu">
+                        <div class="mobile-logo-area d-lg-none d-flex align-items-center justify-content-between">
+                            <a class='mobile-logo-wrap logo-dark' href="index.html">
+                                <img alt="image" src="assets/image/icon/meneshalogo.png">
+                            </a>
+                            <a class='mobile-logo-wrap logo-light' href="index.html">
+                                <img alt="image" src="assets/image/icon/MeneshaLogoDark.png">
+                            </a>
+                            <div class="menu-close-btn">
+                                <i class="bi bi-x"></i>
+                            </div>
+                        </div>
+                        <ul class="menu-list">
+                            <li class="menu-item-has-children">
+                                <a class='drop-down' href="index.html" target="blank">
+                                    Home
+                                </a>
+                                
+
+                            </li>
+                            <li class="menu-item-has-children position-inherit">
+                                <a href="about.html" class="drop-down" target="_blank">About</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="HowItWorks.html" class="drop-down" target="_blank">How It Works
+                                </a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="HowItDelivers.html" class="drop-down" target="_blank">How It delivers</a>
+                            </li>
+                            <li class="menu-item-has-children active">
+                                <a href="Impact.html" class="drop-down" target="_blank">Impact </a>
+                                
+                            </li>
+                            
+                            <li class="menu-item-has-children">
+                                <a href="Participate.html" class="drop-down" target="_blank">Participate</a>
+                            </li>
+                        </ul>
+                        <div class="btn-and-contact-area d-lg-none d-block">
+                            <a class='primary-btn1 black-bg' href="contact.html">
+                                <span>
+                                    Get in Touch
+                                    <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path
+                                                d="M6.36416 4.94971C6.37964 5.45636 8.04642 6.14449 8.42737 6.15336L12.6752 6.15336L4.95937 13.8691C4.68614 14.1424 4.68613 14.5854 4.95937 14.8586C5.23261 15.1319 5.67561 15.1319 5.94884 14.8586L13.6646 7.14283L13.6646 11.3906C13.6647 11.777 14.4631 13.4349 14.8494 13.435C15.2358 13.4349 15.0638 11.777 15.0638 11.3906L15.0638 5.45375C15.0637 5.06741 14.7506 4.75424 14.3642 4.75416L8.42738 4.75416C8.0235 4.75908 6.35447 4.48628 6.36416 4.94971Z" />
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span>
+                                    Get in Touch
+                                    <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path
+                                                d="M6.36416 4.94971C6.37964 5.45636 8.04642 6.14449 8.42737 6.15336L12.6752 6.15336L4.95937 13.8691C4.68614 14.1424 4.68613 14.5854 4.95937 14.8586C5.23261 15.1319 5.67561 15.1319 5.94884 14.8586L13.6646 7.14283L13.6646 11.3906C13.6647 11.777 14.4631 13.4349 14.8494 13.435C15.2358 13.4349 15.0638 11.777 15.0638 11.3906L15.0638 5.45375C15.0637 5.06741 14.7506 4.75424 14.3642 4.75416L8.42738 4.75416C8.0235 4.75908 6.35447 4.48628 6.36416 4.94971Z" />
+                                        </g>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-area">
+                    <div class="nav-right">
+                        
+                        <div class="right-sidebar-button">
+                            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="M4.6142 0.138593C3.82636 -0.0461926 3.00645 -0.0461926 2.21861 0.138593C1.71263 0.257272 1.24984 0.514861 0.882348 0.882352C0.514858 1.24984 0.257268 1.71264 0.138589 2.21862C-0.0461965 3.00645 -0.0461965 3.82636 0.138589 4.6142C0.257268 5.12018 0.514858 5.58297 0.882348 5.95046C1.24984 6.31796 1.71263 6.57554 2.21861 6.69422C3.00645 6.87904 3.82636 6.87904 4.6142 6.69422C5.12017 6.57554 5.58297 6.31796 5.95046 5.95046C6.31795 5.58297 6.57554 5.12018 6.69422 4.6142C6.87904 3.82637 6.87904 3.00645 6.69422 2.21862C6.57554 1.71264 6.31795 1.24984 5.95046 0.882352C5.58297 0.514861 5.12017 0.257272 4.6142 0.138593ZM4.6142 9.30581C3.82636 9.12099 3.00645 9.12099 2.21861 9.30581C1.71263 9.42449 1.24984 9.68208 0.882348 10.0496C0.514858 10.4171 0.257268 10.8799 0.138589 11.3858C-0.0461965 12.1737 -0.0461965 12.9936 0.138589 13.7814C0.257268 14.2874 0.514858 14.7502 0.882348 15.1177C1.24984 15.4852 1.71263 15.7428 2.21861 15.8614C3.00645 16.0462 3.82635 16.0462 4.6142 15.8614C5.12017 15.7428 5.58297 15.4852 5.95046 15.1177C6.31795 14.7502 6.57554 14.2874 6.69422 13.7814C6.87904 12.9936 6.87904 12.1737 6.69422 11.3858C6.57554 10.8799 6.31795 10.4171 5.95046 10.0496C5.58297 9.68208 5.12017 9.42449 4.6142 9.30581ZM13.7814 0.138593C12.9936 -0.0461926 12.1737 -0.0461926 11.3858 0.138593C10.8798 0.257272 10.4171 0.514861 10.0496 0.882352C9.68207 1.24984 9.42448 1.71264 9.3058 2.21862C9.12099 3.00645 9.12099 3.82637 9.3058 4.6142C9.42448 5.12018 9.68207 5.58297 10.0496 5.95046C10.4171 6.31796 10.8798 6.57554 11.3858 6.69422C12.1737 6.87904 12.9936 6.87904 13.7814 6.69422C14.2874 6.57554 14.7502 6.31796 15.1177 5.95046C15.4852 5.58297 15.7428 5.12018 15.8614 4.6142C16.0462 3.82636 16.0462 3.00646 15.8614 2.21862C15.7428 1.71264 15.4852 1.24984 15.1177 0.882352C14.7502 0.514861 14.2874 0.257272 13.7814 0.138593ZM13.7814 9.30581C12.9936 9.12099 12.1737 9.12099 11.3858 9.30581C10.8798 9.42449 10.4171 9.68208 10.0496 10.0496C9.68207 10.4171 9.42448 10.8799 9.3058 11.3858C9.12099 12.1737 9.12099 12.9936 9.3058 13.7814C9.42448 14.2874 9.68207 14.7502 10.0496 15.1177C10.4171 15.4852 10.8798 15.7428 11.3858 15.8614C12.1737 16.0462 12.9936 16.0462 13.7814 15.8614C14.2874 15.7428 14.7502 15.4852 15.1177 15.1177C15.4852 14.7502 15.7428 14.2874 15.8614 13.7814C16.0462 12.9936 16.0462 12.1737 15.8614 11.3858C15.7428 10.8799 15.4852 10.4171 15.1177 10.0496C14.7502 9.68208 14.2874 9.42449 13.7814 9.30581Z" />
+                                </g>
+                            </svg>
+                        </div>
+                        <a class='primary-btn1 black-bg d-xl-flex d-none' href="https://www.alxafrica.com/" target="_blank">
+                            <span>
+                                Apply Now
+                                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path
+                                            d="M6.36416 4.94971C6.37964 5.45636 8.04642 6.14449 8.42737 6.15336L12.6752 6.15336L4.95937 13.8691C4.68614 14.1424 4.68613 14.5854 4.95937 14.8586C5.23261 15.1319 5.67561 15.1319 5.94884 14.8586L13.6646 7.14283L13.6646 11.3906C13.6647 11.777 14.4631 13.4349 14.8494 13.435C15.2358 13.4349 15.0638 11.777 15.0638 11.3906L15.0638 5.45375C15.0637 5.06741 14.7506 4.75424 14.3642 4.75416L8.42738 4.75416C8.0235 4.75908 6.35447 4.48628 6.36416 4.94971Z" />
+                                    </g>
+                                </svg>
+                            </span>
+                            <span>
+                                Apply Now
+                                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path
+                                            d="M6.36416 4.94971C6.37964 5.45636 8.04642 6.14449 8.42737 6.15336L12.6752 6.15336L4.95937 13.8691C4.68614 14.1424 4.68613 14.5854 4.95937 14.8586C5.23261 15.1319 5.67561 15.1319 5.94884 14.8586L13.6646 7.14283L13.6646 11.3906C13.6647 11.777 14.4631 13.4349 14.8494 13.435C15.2358 13.4349 15.0638 11.777 15.0638 11.3906L15.0638 5.45375C15.0637 5.06741 14.7506 4.75424 14.3642 4.75416L8.42738 4.75416C8.0235 4.75908 6.35447 4.48628 6.36416 4.94971Z" />
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                        <div class="sidebar-button mobile-menu-btn">
+                            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="M1.03556 2.52631H8.41896C8.99112 2.52631 9.45456 1.96107 9.45456 1.26316C9.45456 0.565247 8.99112 0 8.41896 0H1.03556C0.463399 0 0 0.565247 0 1.26316C0 1.96107 0.463399 2.52631 1.03556 2.52631Z" />
+                                    <path
+                                        d="M0.984016 9.26267H15.016C15.5597 9.26267 16 8.6974 16 7.99948C16 7.30157 15.5597 6.73633 15.016 6.73633H0.984016C0.440337 6.73633 0 7.30157 0 7.99948C0 8.6974 0.440337 9.26267 0.984016 9.26267Z" />
+                                    <path
+                                        d="M15.0441 13.4736H8.22859C7.70046 13.4736 7.27271 14.0389 7.27271 14.7367C7.27271 15.4347 7.70046 15.9999 8.22859 15.9999H15.0441C15.5722 15.9999 16 15.4347 16 14.7367C16 14.0389 15.5722 13.4736 15.0441 13.4736Z" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header Section End-->
+
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <!-- Breadcrumb Section Start -->
+            <div class="breadcrumb-section mb-120">
+                <div class="container mb-70">
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-10">
+                            <div class="breadcrumb-content">
+                                <ul class="breadcrumb-list">
+                                    <li><a href="#">Home</a></li>
+                                    <li>
+                                        <svg width="24" height="6" viewBox="0 0 24 6"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M-3.26633e-05 2.88672L2.88672 5.77347L5.77347 2.88672L2.88672 -3.26633e-05L-3.26633e-05 2.88672ZM23.7735 2.88672L20.8867 -3.26633e-05L18 2.88672L20.8867 5.77347L23.7735 2.88672ZM2.88672 2.88672V3.38672H20.8867V2.88672V2.38672H2.88672V2.88672Z" />
+                                        </svg>
+                                        Impact
+                                    </li>
+                                </ul>
+                                <h1 style="max-width: none;">The Commitments <br> JSE
+Is Accountable To</h1>
+                                <div class="para">
+                                    <div class="icon">
+                                        <svg width="6" height="49" viewBox="0 0 6 49"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2.88672 -3.26633e-05L-3.26633e-05 2.88672L2.88672 5.77347L5.77347 2.88672L2.88672 -3.26633e-05ZM2.88672 48.7735L5.77347 45.8867L2.88672 43L-3.26633e-05 45.8867L2.88672 48.7735ZM2.88672 2.88672H2.38672L2.38672 45.8867H2.88672H3.38672L3.38672 2.88672H2.88672Z" />
+                                        </svg>
+                                    </div>
+                                    <p>The following targets govern the 2-year JSE pilot program. <br> They are publicly reported benchmarks.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Breadcrumb Section End -->
+
+            <!-- Industries details page Start -->
+            <div class="industries-details-page mb-120">
+                <div class="container-fluid">
+                    <div class="row  mb-80">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <div class="industries-details-thumb-img">
+                                <img src="assets/image/innerpage/AboutImage01.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <!-- Industries details page End -->
+
+            <!-- About us section Start -->
+            <div class="about-us-section home2-about-us mb-120">
+                <div class="container">
+                    <div class="about-us-content-wrap">
+                        
+                        <div class="counter-wrap">
+                            <div class="row gy-sm-5 gy-4 gx-xl-4 gx-2">
+                                <div class="col-lg-3 col-sm-6 d-flex justify-content-sm-center divider">
+                                    <div class="single-countdown">
+                                        <div class="number">
+                                            <h2 class="">2.4</h2>
+                                            <span>K</span>
+                                        </div>
+                                        <span>Founders to be activated</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6 d-flex justify-content-sm-center divider">
+                                    <div class="single-countdown">
+                                        <div class="number">
+                                            <h2 class="counter_number">120</h2>
+                                        </div>
+                                        <span>Revenue generation target</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6 d-flex justify-content-sm-center divider">
+                                    <div class="single-countdown">
+                                        <div class="number">
+                                            <h2 class="counter_number">2</h2>
+                                            <span>M+</span>
+                                        </div>
+                                        <span>Follow-on investment catalyzed</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6 d-flex justify-content-lg-end justify-content-sm-center">
+                                    <div class="single-countdown">
+                                        <div class="number">
+                                            <h2 class="counter_number">1</h2>
+                                            <span>K</span>
+                                        </div>
+                                        <span>Direct and indirect jobs</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- About us section End -->
+
+            <!-- home4 Process Section Start-->
+            <div class="home4-process-section mb-120">
+                <div class="container-fluid two">
+                    <div class="process-section-wrap" style="background-color: unset;">
+                        <div class="section-title-wrap">
+                            <div class="container">
+                                <div class="row gy-3 mb-60 justify-content-between">
+                                    <div class="col-lg-7">
+                                        <div class="section-title home4-section-title three">
+                                            <span>National Policy Alignment</span>
+                                            <div class="left-content">
+                                                <h2 class="text-anim" style="max-width: none;">JSE Operationalizes
+Three National Agendas</h2>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="right-content">
+                                            <a href="contact.html" class="view-more-btn style-2">
+                                                <svg class="border" width="88" height="1" viewBox="0 0 88 1"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect width="88" height="1" />
+                                                </svg>
+                                                Let’s Work Together</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="process-wrapper">
+                            <div class="single-process mt-30">
+                                <div class="process-card wow animate fadeInLeft" data-wow-delay="200ms"
+                                    data-wow-duration="1500ms">
+                                    <div class="step-no">
+                                        <span>Agenda : 01</span>
+                                    </div>
+                                    <h3 style="max-width: none;">Digital Ethiopia 2030 Strategy</h3>
+                                    <p>with in-depth consultations to understand your goals, target audience, and
+                                        current challenges. </p>
+                                    <svg class="vector" width="75" height="75" viewBox="0 0 75 75" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="25" height="25" fill="#B2B7DD" />
+                                        <rect x="25" y="25" width="25" height="25" fill="#B2B7DD" />
+                                        <rect y="50" width="25" height="25" fill="#B2B7DD" />
+                                        <rect x="50" y="50" width="25" height="25" fill="#B2B7DD" />
+                                    </svg>
+                                </div>
+                                <svg class="animated-vector" width="181" height="124" viewBox="0 0 181 124" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.2" id="theMotionPath11"
+                                        d="M0 123H67.5C84.0685 123 97.5 109.569 97.5 93V31C97.5 14.4315 110.931 1 127.5 1H181"
+                                        stroke="black" />
+                                    <path d="M0 0 L13 0" stroke="url(#paint0_linear_354_7441)" stroke-linecap="round"
+                                        stroke-width="2">
+                                        <animateMotion dur="4s" begin="0s" repeatCount="indefinite" rotate="auto">
+                                            <mpath href="#theMotionPath11"></mpath>
+                                        </animateMotion>
+                                    </path>
+                                    <defs>
+                                        <linearGradient id="paint0_linear_354_7441" x1="10" y1="0" x2="0" y2="0"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#CB0000" offset="0" />
+                                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="single-process two">
+                                <div class="process-card wow animate fadeInUp" data-wow-delay="200ms"
+                                    data-wow-duration="1500ms">
+                                    <div class="step-no">
+                                        <span>Agenda : 02</span>
+                                    </div>
+                                    <h3 style="max-width: none;">Startup Proclamation No. 1396/2025</h3>
+                                    <p>Our team conducts market research, competitor analysis, and audience profiling.
+                                    </p>
+                                    <svg class="vector" width="75" height="75" viewBox="0 0 75 75" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="25" height="25" fill="#D9C9A2" />
+                                        <rect x="25" y="25" width="25" height="25" fill="#D9C9A2" />
+                                        <rect y="50" width="25" height="25" fill="#D9C9A2" />
+                                        <rect x="50" y="50" width="25" height="25" fill="#D9C9A2" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="single-process three mt-30">
+                                <svg class="animated-vector" width="181" height="124" viewBox="0 0 181 124" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.2" id="theMotionPath12"
+                                        d="M181 123H113.5C96.9315 123 83.5 109.569 83.5 93V31C83.5 14.4315 70.0685 1 53.5 1H0"
+                                        stroke="black" />
+                                    <path d="M0 0 L13 0" stroke="url(#paint0_linear_354_7442)" stroke-linecap="round"
+                                        stroke-width="2">
+                                        <animateMotion dur="4s" begin="0s" repeatCount="indefinite" rotate="auto"
+                                            keyPoints="1;0" keyTimes="0;1">
+                                            <mpath href="#theMotionPath12"></mpath>
+                                        </animateMotion>
+                                    </path>
+                                    <defs>
+                                        <linearGradient id="paint0_linear_354_7442" x1="10" y1="0" x2="0" y2="0"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#CB0000" offset="0" />
+                                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <div class="process-card wow animate fadeInRight" data-wow-delay="200ms"
+                                    data-wow-duration="1500ms">
+                                    <div class="step-no">
+                                        <span>Agenda : 03</span>
+                                    </div>
+                                    <h3>EIH 2030 Strategy</h3>
+                                    <p>Develop initial wireframes and user flow diagrams.Develop initial wireframes and
+                                        user flow diagrams.
+                                    </p>
+                                    <svg class="vector" width="75" height="75" viewBox="0 0 75 75" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="25" height="25" fill="#B5D4A2" />
+                                        <rect x="25" y="25" width="25" height="25" fill="#B5D4A2" />
+                                        <rect y="50" width="25" height="25" fill="#B5D4A2" />
+                                        <rect x="50" y="50" width="25" height="25" fill="#B5D4A2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- home4 Process Section End-->
+
+            <!-- home1 Footer Section Start -->
+            <footer class="footer-section">
+                <div class="container">
+                    <div class="footer-menu-wrap">
+                        <div class="row gy-5">
+                            <div class="col-xxl-7 col-lg-6 col-md-5">
+                                <div class="footer-contact-wrap">
+                                    <div class="title-area">
+                                        <h2>Let's Build Ethiopia's Innovation Future</h2>
+                                    </div>
+                                    <ul class="contact-list">
+                                        <li class="single-contact">
+                                            <div class="icon">
+                                                <svg width="28" height="28" viewBox="0 0 28 28"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g>
+                                                        <path
+                                                            d="M11.1285 9.75183C11.2942 9.58619 11.4598 9.41502 11.631 9.24386C12.2218 8.65306 12.5365 7.96841 12.5365 7.27271C12.5365 6.57701 12.2218 5.89787 11.631 5.30156L10.0077 3.67826C9.81995 3.49053 9.63775 3.30281 9.45554 3.11508C9.09113 2.74514 8.72119 2.36416 8.35126 2.01631C7.79359 1.45865 7.13102 1.16602 6.43532 1.16602C5.73962 1.16602 5.07153 1.45865 4.49178 2.01631L2.44333 4.05924C1.70346 4.79911 1.28383 5.70463 1.18997 6.74817C1.08506 8.05123 1.32248 9.44263 1.94641 11.1156C2.90161 13.7052 4.3427 16.107 6.47949 18.68C9.07456 21.783 12.1997 24.229 15.7665 25.9517C17.1248 26.5977 18.9413 27.3541 20.9622 27.4866C21.0892 27.4922 21.2106 27.4977 21.3321 27.4977C22.6904 27.4977 23.7836 27.0284 24.6726 26.0621C24.6781 26.0566 24.6891 26.0455 24.6947 26.0345C25.0094 25.6535 25.3683 25.3112 25.7437 24.9468C25.9977 24.6983 26.2628 24.4443 26.5112 24.1793C27.6762 22.9646 27.6762 21.4241 26.5002 20.2481L23.226 16.9738C22.6683 16.3941 22.0002 16.0849 21.299 16.0849C20.5978 16.0849 19.9297 16.3886 19.3554 16.9628L17.4119 18.9174C17.2352 18.8125 17.053 18.7241 16.8763 18.6358C16.661 18.5254 16.4567 18.426 16.2745 18.31C14.4966 17.1837 12.8843 15.7094 11.3439 13.8156C10.5653 12.8328 10.0463 12.0046 9.68192 11.1598C10.1899 10.7015 10.6703 10.2156 11.1285 9.75183ZM8.66046 10.2598C8.64941 10.2708 8.64389 10.2764 8.63285 10.2874C8.18009 10.7402 8.24635 11.1764 8.35678 11.5076C8.3623 11.5242 8.36782 11.5352 8.37334 11.5518C8.79297 12.5622 9.37824 13.5174 10.2838 14.6659C11.9236 16.6812 13.6408 18.2493 15.5401 19.453C15.7776 19.602 16.026 19.729 16.2635 19.845C16.4788 19.9554 16.6831 20.0548 16.8653 20.1708C16.8874 20.1818 16.9039 20.1928 16.926 20.2039C17.1082 20.2977 17.2794 20.3419 17.4561 20.3419C17.8978 20.3419 18.1794 20.0603 18.2733 19.9665L20.3107 17.9291C20.6254 17.6143 20.9677 17.4487 21.299 17.4487C21.7131 17.4487 22.0444 17.7027 22.2597 17.9291L25.545 21.2143C26.1965 21.8658 26.191 22.5671 25.5284 23.2572C25.2965 23.5002 25.0591 23.7321 24.7996 23.9805C24.4186 24.3505 24.0211 24.7314 23.6622 25.1621C23.0382 25.8357 22.2928 26.1505 21.3266 26.1505C21.2327 26.1505 21.1333 26.1449 21.0395 26.1394C19.2505 26.0235 17.5886 25.3278 16.3463 24.7314C12.9561 23.0916 9.9856 20.7615 7.512 17.8131C5.48012 15.3671 4.1108 13.0868 3.21081 10.6463C2.65867 9.16104 2.44333 7.95737 2.53168 6.86412C2.59241 6.14082 2.874 5.53346 3.39302 5.01997L5.41938 2.99361C5.7341 2.68993 6.08195 2.52981 6.41876 2.52981C6.75004 2.52981 7.08133 2.68441 7.39605 2.99913C7.76046 3.34146 8.10831 3.69483 8.47273 4.07028C8.66046 4.25801 8.84818 4.45126 9.03591 4.64451L10.6592 6.26781C10.996 6.60462 11.1672 6.94694 11.1672 7.27823C11.1672 7.60952 10.996 7.95184 10.6592 8.28865C10.488 8.45982 10.3224 8.63098 10.1512 8.80214C9.65983 9.31011 9.18499 9.796 8.66046 10.2598Z" />
+                                                        <path
+                                                            d="M16.6789 11.9838C16.7808 12.0857 16.9124 12.1366 17.0482 12.1366C17.184 12.1366 17.3156 12.0857 17.4174 11.9838L24.2592 5.13774V9.18681C24.2592 9.47542 24.4927 9.70886 24.7813 9.70886C25.0699 9.70886 25.3033 9.47542 25.3033 9.18681V3.88142C25.3033 3.59281 25.0699 3.35938 24.7813 3.35938H19.4759C19.1873 3.35938 18.9539 3.59281 18.9539 3.88142C18.9539 4.17004 19.1873 4.40347 19.4759 4.40347H23.525L16.6789 11.2495C16.4752 11.4533 16.4752 11.7843 16.6789 11.9838Z" />
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="content">
+                                                <span>Call</span>
+                                                <a href="tel:+997636844563">+251-911-223-344</a>
+                                            </div>
+                                        </li>
+                                        <li class="single-contact">
+                                            <div class="icon">
+                                                <svg width="28" height="28" viewBox="0 0 28 28"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M25.4297 3.87695H2.57031C1.88886 3.87772 1.23554 4.14877 0.753674 4.63063C0.271814 5.11249 0.000767151 5.76581 0 6.44727L0 21.5543C0.000767151 22.2357 0.271814 22.889 0.753674 23.3709C1.23554 23.8528 1.88886 24.1238 2.57031 24.1246H25.4297C26.1111 24.1238 26.7645 23.8528 27.2463 23.3709C27.7282 22.889 27.9992 22.2357 28 21.5543V6.44727C27.9992 5.76581 27.7282 5.11249 27.2463 4.63063C26.7645 4.14877 26.1111 3.87772 25.4297 3.87695ZM18.4828 14.0008L26.5688 5.91472C26.6471 6.08133 26.6876 6.26318 26.6875 6.44727V21.5543C26.6876 21.7383 26.6471 21.9202 26.5688 22.0868L18.4828 14.0008ZM25.4297 5.18945H25.4377L14 16.6274L2.56227 5.18967H2.57031L25.4297 5.18945ZM1.43117 22.0868C1.35289 21.9202 1.31237 21.7383 1.3125 21.5543V6.44727C1.31236 6.26318 1.35288 6.08133 1.43117 5.91472L9.51721 14.0008L1.43117 22.0868ZM2.57031 22.8121C2.56763 22.8121 2.56484 22.8121 2.56222 22.8121L10.4453 14.9288L13.536 18.0195C13.6591 18.1426 13.826 18.2117 14.0001 18.2117C14.1741 18.2117 14.341 18.1426 14.4641 18.0195L17.5547 14.9289L25.4377 22.8118C25.435 22.8118 25.4323 22.8118 25.4297 22.8118L2.57031 22.8121Z" />
+                                                </svg>
+                                            </div>
+                                            <div class="content">
+                                                <span>Send Us Mail</span>
+                                                <a href=""><span class="__cf_email__" data-cfemail="">Contact@menesha.com</span></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <a href="https://eih.et/" target="_blank" class="primary-btn1">
+                                        <span>View EIH's  Website
+                                            <svg width="19" height="19" viewBox="0 0 19 19"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.69375 4.27956C5.70923 4.78621 7.37601 5.47434 7.75696 5.48321L12.0047 5.48321L4.28896 13.199C4.01573 13.4722 4.01572 13.9152 4.28896 14.1885C4.5622 14.4617 5.0052 14.4617 5.27843 14.1885L12.9942 6.47268L12.9942 10.7205C12.9943 11.1068 13.7927 12.7648 14.179 12.7648C14.5654 12.7648 14.3934 11.1068 14.3934 10.7205L14.3934 4.7836C14.3933 4.39726 14.0802 4.08409 13.6938 4.08401L7.75697 4.08401C7.35309 4.08893 5.68406 3.81613 5.69375 4.27956Z" />
+                                            </svg>
+                                        </span>
+                                        <span>View EIH's  Website
+                                            <svg width="19" height="19" viewBox="0 0 19 19"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.69375 4.27956C5.70923 4.78621 7.37601 5.47434 7.75696 5.48321L12.0047 5.48321L4.28896 13.199C4.01573 13.4722 4.01572 13.9152 4.28896 14.1885C4.5622 14.4617 5.0052 14.4617 5.27843 14.1885L12.9942 6.47268L12.9942 10.7205C12.9943 11.1068 13.7927 12.7648 14.179 12.7648C14.5654 12.7648 14.3934 11.1068 14.3934 10.7205L14.3934 4.7836C14.3933 4.39726 14.0802 4.08409 13.6938 4.08401L7.75697 4.08401C7.35309 4.08893 5.68406 3.81613 5.69375 4.27956Z" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-xxl-3 col-lg-3 col-md-3 col-sm-6 d-flex justify-content-xxl-start justify-content-md-center">
+                                <div class="footer-widget">
+                                    <div class="widget-title">
+                                        <h3>Program</h3>
+                                    </div>
+                                    <ul class="widget-list">
+                                        <li><a href="about.html">About us</a></li>
+                                        <li><a href="HowItDelivers.html">How it Works</a></li>
+                                        <li><a href="HowItDelivers.html">How it Delivers</a></li>
+                                        <li><a href="Impact.html">Program Impact & KPIs</a></li>
+                                        <li><a href="Participate.html">How to Participate</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 d-flex justify-content-md-end">
+                                <div class="footer-widget">
+                                    <div class="widget-title">
+                                        <h3>Participation</h3>
+                                    </div>
+                                    <ul class="widget-list">
+                                        <li><a href="Participate.html" target="_blank">Apply for the National Founder Lab</a></li>
+                                        <li><a href="Participate.html" target="_blank">Submit a Challenge Brief (SOEs)</a></li>
+                                        <li><a href="Participate.html" target="_blank">Explore EIH Direct & CVC</a></li>
+                                        <li><a href="Participate.html" target="_blank">Government & Institutional Partners</a></li>
+                                    
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="assets/JSE Program Brief.pdf" class="file-download-btn" download>
+                        <div class="icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.6758 2.80469H13.3242V11.0102H17.0039L12 17.5609L6.99609 11.0102H10.6758V2.80469Z" />
+                                <path
+                                    d="M10.6758 3.1566H13.3266L12.975 2.80504V9.99801C12.975 10.3308 12.9633 10.6636 12.975 10.9964V11.0105C12.975 11.2004 13.1367 11.3621 13.3266 11.3621H17.0062C16.9055 11.1863 16.8047 11.0105 16.7016 10.8324C16.5352 11.0504 16.3711 11.266 16.2047 11.4839C15.8062 12.0043 15.4078 12.5246 15.0117 13.0472C14.5312 13.6777 14.0484 14.3082 13.568 14.9386C13.1508 15.4847 12.7336 16.0285 12.3187 16.5746C12.1172 16.8394 11.8969 17.0972 11.7094 17.3714C11.707 17.3761 11.7023 17.3785 11.7 17.3832H12.307C12.1406 17.1652 11.9766 16.9496 11.8102 16.7316C11.4117 16.2113 11.0133 15.691 10.6172 15.1683C10.1367 14.5379 9.6539 13.9074 9.17343 13.2769C8.75625 12.7308 8.33906 12.1871 7.92422 11.641C7.72265 11.3761 7.53281 11.0949 7.31484 10.8441C7.3125 10.8394 7.30781 10.8371 7.30547 10.8324C7.20469 11.0082 7.1039 11.1839 7.00078 11.3621H10.6805C10.8703 11.3621 11.032 11.2004 11.032 11.0105V3.81754C11.032 3.48473 11.0437 3.15192 11.032 2.8191V2.80504C11.032 2.62223 10.8703 2.4441 10.6805 2.45348C10.4906 2.46285 10.3289 2.60817 10.3289 2.80504V9.99801C10.3289 10.3285 10.3102 10.666 10.3289 10.9964V11.0105L10.6805 10.6589H7.00078C6.75937 10.6589 6.52969 10.9683 6.69609 11.1886C6.8625 11.4066 7.02656 11.6222 7.19297 11.8402C7.5914 12.3605 7.98984 12.8808 8.38593 13.4035C8.8664 14.0339 9.34922 14.6644 9.82968 15.2949C10.2469 15.841 10.6641 16.3847 11.0789 16.9308C11.2828 17.1957 11.4844 17.4629 11.6883 17.7277C11.6906 17.7324 11.6953 17.7347 11.6977 17.7394C11.8687 17.9621 12.1336 17.9621 12.3047 17.7394C12.4711 17.5214 12.6352 17.3058 12.8016 17.0879C13.2 16.5675 13.5984 16.0472 13.9945 15.5246C14.475 14.8941 14.9578 14.2636 15.4383 13.6332C15.8555 13.0871 16.2727 12.5433 16.6875 11.9972C16.8891 11.7324 17.1117 11.4769 17.2969 11.2004C17.2992 11.1957 17.3039 11.1933 17.3062 11.1886C17.475 10.9683 17.2453 10.6589 17.0016 10.6589H13.3219L13.6734 11.0105V3.81754C13.6734 3.48473 13.6852 3.15192 13.6734 2.8191V2.80504C13.6734 2.6152 13.5117 2.45348 13.3219 2.45348H10.6711C10.4883 2.45348 10.3102 2.6152 10.3195 2.80504C10.3312 2.99489 10.4789 3.1566 10.6758 3.1566Z" />
+                                <path
+                                    d="M20.9297 17.2117V19.9609C20.9297 20.1132 20.939 20.2726 20.9203 20.425C20.9297 20.3617 20.9367 20.3007 20.9461 20.2375C20.9344 20.3101 20.9156 20.3804 20.8875 20.4507L20.9578 20.282C20.9367 20.3289 20.9133 20.3757 20.8875 20.4203C20.843 20.4882 20.8031 20.4836 20.925 20.3781C20.9062 20.3945 20.8898 20.4156 20.8734 20.4343C20.8664 20.4414 20.8195 20.4882 20.8172 20.4859C20.8125 20.4836 20.9859 20.3734 20.8734 20.439C20.8242 20.4695 20.7773 20.4953 20.7234 20.5187L20.8922 20.4484C20.8219 20.4765 20.7539 20.4953 20.6789 20.507C20.7422 20.4976 20.8031 20.4906 20.8664 20.4812C20.6789 20.5047 20.482 20.4906 20.2945 20.4906H3.2906C3.23904 20.4906 3.18982 20.4882 3.13826 20.4812C3.20154 20.4906 3.26248 20.4976 3.32576 20.507C3.2531 20.4953 3.18279 20.4765 3.11248 20.4484L3.28123 20.5187C3.23435 20.4976 3.18748 20.4742 3.14295 20.4484C3.07498 20.4039 3.07967 20.364 3.18514 20.4859C3.16873 20.4672 3.14764 20.4507 3.12889 20.4343C3.12185 20.4273 3.07498 20.3804 3.07732 20.3781C3.07967 20.3734 3.18982 20.5468 3.1242 20.4343C3.09373 20.3851 3.06795 20.3382 3.04451 20.2843L3.11482 20.4531C3.0867 20.3828 3.06795 20.3148 3.05623 20.2398C3.0656 20.3031 3.07264 20.364 3.08201 20.4273C3.0656 20.2984 3.07264 20.1648 3.07264 20.0359V17.2164C3.07264 16.8484 2.7492 16.4968 2.36951 16.5132C1.98748 16.5297 1.66639 16.8226 1.66639 17.2164V19.9726C1.66639 20.0804 1.66404 20.1906 1.66639 20.2984C1.6781 20.9875 2.10232 21.564 2.73982 21.8078C2.96951 21.8968 3.20857 21.9015 3.44998 21.9015H20.7117C21.6047 21.8992 22.3289 21.1937 22.343 20.2984C22.357 19.3703 22.343 18.4422 22.343 17.514V17.2164C22.343 16.8484 22.0195 16.4968 21.6398 16.5132C21.2508 16.525 20.9297 16.8179 20.9297 17.2117Z" />
+                            </svg>
+                        </div>
+                        Get to Know more About the Program
+                    </a>
+                    <div class="logo-and-sevice-menu-wrap">
+                        <a class="footer-logo" href="#">
+                            <img src="assets/image/icon/MeneshaLogoDark.png" alt="">
+                        </a>
+                        <ul class="service-list">
+                            <li><a href="#">Support Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright-and-social-area">
+                        <p>&copy;Copyright 2026 <a href="">EIH X ALX</a> | All Right Reserved.
+                        </p>
+                        <ul class="social-list">
+                            <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="https://x.com/"><i class="bi bi-twitter-x"></i></a></li>
+                            <li><a href="https://www.linkedin.com/"><i class='bx bxl-linkedin'></i></a></li>
+                            <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt'></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <!-- home1 Footer Section End -->
+        </div>
+    </div>
+
+
+
+    <!-- Jquery js -->
+    <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/moment.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- swiper js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- Waypoint js -->
+    <script src="assets/js/waypoints.js"></script>
+    <!-- counterup js -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Wow js -->
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- Marquee js -->
+    <script src="assets/js/jquery.marquee.min.js"></script>
+    <!-- gsap js -->
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <!-- fancybox js -->
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/three.js"></script>
+    <script src="assets/js/hover-effect.umd.js"></script>
+    <!-- Custom js -->
+    <script src="assets/js/custom.js"></script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"70834e4b23964a2eaf7cf4ec0e5e9a84","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+
+</html>
