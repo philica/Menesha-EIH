@@ -897,7 +897,7 @@
 
       // Hide on click.
       $("a")
-        .not('[target="_blank"]') // omit from selection.
+        .not('[]') // omit from selection.
         .not('[href^="#"]') // omit from selection.
         .not('[href^="mailto"]') // omit from selection.
         .not('[href^="tel"]') // omit from selection.
