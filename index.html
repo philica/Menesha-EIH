@@ -28,6 +28,17 @@
      #process{
         background-position: 0%;
      }
+
+     #rotating-headline {
+  /* Adjust the 0.5s to make the fade faster or slower */
+  transition: opacity 0.5s ease-in-out; 
+  opacity: 1;
+}
+
+/* This class will be toggled by JavaScript */
+.fade-out {
+  opacity: 0 !important;
+}
   </style>
 </head>
 
@@ -290,7 +301,7 @@
                         <div class="col-lg-12">
                             <div class="banner-wrapper">
                                 <div class="banner-content-wrap" >
-                                    <h1 style="max-width: none; font-size: 4rem;">A Sovereign-Backed <strong>Open Innovation &
+                                    <h1 style="max-width: none; font-size: 4rem;" id="rotating-headline">A Sovereign-Backed <strong>Open Innovation &
 Venture Building</strong>  Program</span></h1>
                                     <div class="para-area">
                                         <div class="icon">
@@ -1322,6 +1333,36 @@ Venture Building</strong>  Program</span></h1>
 
 
      <!-- Jquery js -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+  const headline = document.getElementById('rotating-headline');
+  
+  // Add the phrases you want to cycle through here
+  const phrases = [
+    "A Sovereign-Backed Open Innovation & Venture Building Program",
+    "Empowering the Next Generation of Ethiopian Startups",
+    "Bridging State Owned Enterprises with Agile Innovators"
+  ];
+  
+  let currentIndex = 0;
+  
+  // 2000 milliseconds = 2 seconds
+  setInterval(() => {
+    // 1. Fade the text out
+    headline.classList.add('fade-out');
+    
+    // 2. Wait for the fade-out to finish (500ms matches the CSS transition), then change text
+    setTimeout(() => {
+      currentIndex = (currentIndex + 1) % phrases.length;
+      headline.textContent = phrases[currentIndex];
+      
+      // 3. Fade the text back in
+      headline.classList.remove('fade-out');
+    }, 500); 
+    
+  }, 3500); 
+});
+    </script>
     <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/jquery-ui.js"></script>
     <script src="assets/js/moment.min.js"></script>
