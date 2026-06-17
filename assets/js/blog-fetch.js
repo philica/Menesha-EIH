@@ -50,22 +50,22 @@ async function loadBlogPosts() {
         <div class="col-lg-4 col-md-6 fade_anim" data-delay=".2">
             <div class="blog-card style-2">
                 <div class="blog-image-wrap">
-                    <a class="blog-img shape-hover-item" href="news-article-details.html?slug=${slug}">
+                    <a class="blog-img shape-hover-item" href="News-and-Blog-Detail.html">
                         <img src="${imageUrl}" alt="${title}">
                     </a>
                 </div>
                 <div class="blog-content">
                     <ul class="blog-meta">
                         
-                        <li><a href="news-article-details.html?slug=${slug}">${formattedDate}</a></li>
+                        <li><a href="News-and-Blog-Detail.html">${formattedDate}</a></li>
                         <li>
                             <svg width="37" height="6" viewBox="0 0 37 6" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M32 3.38672L37 5.77347L37 -3.26633e-05L32 2.38672L32 3.38672ZM5 2.38672L2.18264e-07 -3.54609e-05L-2.18264e-07 5.77347L5 3.38672L5 2.38672ZM32.5 2.88672L32.5 2.38672L4.5 2.38672L4.5 2.88672L4.5 3.38672L32.5 3.38672L32.5 2.88672Z"></path>
                             </svg>
                         </li>
                     </ul>
-                    <h3><a href="news-article-details.html?slug=${slug}">${title}</a></h3>
-                    <a href="news-article-details.html?slug=${slug}" class="view-details-btn">Read More &rarr;</a>
+                    <h3><a href="News-and-Blog-Detail.html">${title}</a></h3>
+                    <a href="News-and-Blog-Detail.html" class="view-details-btn">Read More &rarr;</a>
                 </div>
             </div>
         </div>
@@ -83,7 +83,29 @@ loadBlogPosts();
 
 
 
-// const BASE_URL = 'http://localhost:1337'; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const BASE_URL = 'https://strapi-qm8b.onrender.com'; // Replace with your live Render URL
 
 // async function loadBlogPosts() {
 //   const container = document.getElementById('blog-grid');
@@ -121,8 +143,14 @@ loadBlogPosts();
 //       });
       
 //       let imageUrl = 'assets/image/start-up2/blog-img.png'; 
-//       if (post.coverImage) {
-//         imageUrl = BASE_URL + post.coverImage.url;
+      
+//       // Production-safe image check for Strapi v5 media structures
+//       if (post.coverImage && post.coverImage.url) {
+//         if (post.coverImage.url.startsWith('/')) {
+//           imageUrl = BASE_URL + post.coverImage.url;
+//         } else {
+//           imageUrl = post.coverImage.url;
+//         }
 //       }
 
 //       const articleHTML = `
@@ -135,8 +163,13 @@ loadBlogPosts();
 //                 </div>
 //                 <div class="blog-content">
 //                     <ul class="blog-meta">
-//                         <li><a href="#">Industry Insight</a></li>
+                        
 //                         <li><a href="news-article-details.html?slug=${slug}">${formattedDate}</a></li>
+//                         <li>
+//                             <svg width="37" height="6" viewBox="0 0 37 6" xmlns="http://www.w3.org/2000/svg">
+//                                 <path d="M32 3.38672L37 5.77347L37 -3.26633e-05L32 2.38672L32 3.38672ZM5 2.38672L2.18264e-07 -3.54609e-05L-2.18264e-07 5.77347L5 3.38672L5 2.38672ZM32.5 2.88672L32.5 2.38672L4.5 2.38672L4.5 2.88672L4.5 3.38672L32.5 3.38672L32.5 2.88672Z"></path>
+//                             </svg>
+//                         </li>
 //                     </ul>
 //                     <h3><a href="news-article-details.html?slug=${slug}">${title}</a></h3>
 //                     <a href="news-article-details.html?slug=${slug}" class="view-details-btn">Read More &rarr;</a>
@@ -154,7 +187,6 @@ loadBlogPosts();
 // }
 
 // loadBlogPosts();
-
 
 
 
